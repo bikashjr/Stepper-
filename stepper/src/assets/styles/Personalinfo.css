@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300;6..12,400;6..12,500;6..12,600;6..12,700;6..12,800&family=Ubuntu:wght@400;500;700&display=swap');
+
+.bg-infos{
+    background-color: #EFF3FC;
+    height: 100vh;
+    width: 100%;
+    
+}
+.outline-border-info{
+    padding: 10px;
+    height: 37rem;
+    background-color: white;
+    position: relative;
+    top: 70px;
+    width: 68% !important;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 16px;
+    display: flex;
+}
+.aside-bar{
+
+}
+.img-sidebar{
+    position: relative;
+    background: url(../image/bg-sidebar.svg);
+    height: 35rem;
+    background-repeat: no-repeat;
+}
+.img-sidebar-left-side{
+    margin-top: 50px;
+}
+.circle{
+    height: 37px;
+    width: 37px;
+    background-color: #BFDFFD;
+    border-radius: 50%;
+    font-size: 18px;
+    font-family: Ubuntu;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 6px;
+    align-items: center;
+}
+.circle-2{
+    height: 37px;
+    width: 37px;
+    background-color:transparent;
+    border: 1px solid white;
+    border-radius: 50%;
+    font-size: 18px;
+    font-family: Ubuntu;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 6px;
+    align-items: center;
+    color: white;
+}
+.personal-step{
+    font-size: 16px;
+    font-weight: 400;
+}
+.info-yours{
+    margin-left: -50px;
+    margin-top: 6px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+}
+.sidebar-h1{
+    color:#012B5D;
+    font-weight: 650 ;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.sidebar p{
+    color: #757575;
+    font-size: 14px;
+}
+p.mt-2 {
+    position: relative;
+    top: 8px;
+}
+Form{
+    margin-top: 30px;
+}
+.span-details{
+    font-size: 16px;
+    font-weight: 400;
+    font-weight: bold;
+    position: relative;
+    right: 80px;
+}
+.btn-next-step{
+    background-color: #174A89;
+    color: white;
+    padding: 4px;
+    border-radius: 9px;
+    height: 42px;
+    width: 100px;
+    border: none;
+    position: relative;
+    right: 80px;
+    top: 20px;
+}
+.form-control{
+    width: 85% !important;
+}
