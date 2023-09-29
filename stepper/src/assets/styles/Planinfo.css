@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300;6..12,400;6..12,500;6..12,600;6..12,700;6..12,800&family=Ubuntu:wght@400;500;700&display=swap');
+.circle-1 {
+    background-color: none;
+    border: 1px solid white;
+    height: 37px;
+    width: 37px;
+    border-radius: 50%;
+    font-size: 18px;
+    font-family: Ubuntu;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 6px;
+    align-items: center;
+    color: white;
+}
+
+.side-bar.col-md-7.mt-5 {
+    margin-left: -20px;
+}
+
+.circle-personal-info {
+    background-color: #BFDFFD;
+    height: 37px;
+    width: 37px;
+    border-radius: 50%;
+    font-size: 18px;
+    font-family: Ubuntu;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 6px;
+    align-items: center;
+}
+
+.Arcade {
+    border: 1px solid blue;
+    height: 180px;
+    width: 160px;
+    border-radius: 10px;
+    margin-top: 30px;
+    background: #EFF3FC;
+}
+
+.pro {
+    border: 1px solid #ACB0B3;
+    height: 180px;
+    width: 160px;
+    border-radius: 10px;
+    margin-top: 30px;
+    background: #EFF3FC;
+}
+
+.icon {
+    background: url(../image/icon3.svg);
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 200px;
+    height: 110px;
+}
+
+.icon-1 {
+    background: url(../image/icon2.svg);
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 200px;
+    height: 110px;
+}
+
+.icon-2 {
+    background: url(../image/icon4.svg);
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 200px;
+    height: 110px;
+}
+
+b {
+    position: relative;
+    left: 20px;
+    top: -27px;
+    color: #174A89;
+}
+
+.b {
+    color: #ACB0B3;
+    position: relative;
+    left: 20px;
+    top: -28px;
+}
+
+.side-bar-info.col-md-7.mt-5 {
+    margin-left: -40px;
+}
+
+.date-info {
+    background-color: #EFF3FC;
+    width: 98%;
+    height: 13%;
+    border-radius: 12px;
+}
+
+.date-b {
+    position: relative;
+    top: 13px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    left: -17px;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 62px;
+    top: 5px;
+    right: 186px;
+    height: 32px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+/* The slider */
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked+.slider {
+    background-color: #2196F3;
+}
+
+input:focus+.slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked+.slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+.yearly-p {
+    position: relative;
+    right: 157px;
+    top: 7px;
+    font-family: Ubuntu;
+    font-size: 19px;
+    color: #ACB0B3;
+}
+
+@media (min-width: 768px) {
+    .col-md-4 {
+        flex: 0 0 auto;
+        width: 33.333333%;
+        position: relative;
+        left: -7px;
+        margin: 6px;
+    }
+    .switch {
+        position: relative;
+        display: inline-block;
+        width: 62px;
+        top: 6px;
+        right: 169px;
+        height: 32px;
+    }
+}

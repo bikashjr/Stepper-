@@ -26,6 +26,7 @@ const Personalinfo = () => {
                                             <p className='info-yours text-white'>YOUR INFO</p>
                                         </div>
                                     </div>
+                                    <div className='div-media'>
                                     <div className='d-flex mt-3'>
                                         <p className='circle-2 ms-5'>2</p>
                                         <p className='ms-3 text-white personal-step text-lighter'>STEP 2</p>
@@ -47,31 +48,32 @@ const Personalinfo = () => {
                                             <p className='info-yours text-white'>SUMMARY</p>
                                         </div>
                                     </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                         <div className='side-bar col-md-7  mt-5'>
-                        <h1 className='sidebar-h1'>Personal info</h1>
-                        <p>Please provide your name,email-address and phone number. </p>
+                            <h1 className='sidebar-h1'>Personal info</h1>
+                            <p className='sidebar-h1-p'>Please provide your name,email-address and phone number. </p>
                             <Form>
-                              <Form.Group className="mb-3" controlId="formBasicEmail">
-                                <Form.Label>Name</Form.Label>
-                                <Form.Control type="email" placeholder="Bikash Ghimire" />
-                              </Form.Group>
-                              <Form.Group className="mb-3" controlId="formBasicPassword">
-                                <Form.Label>Email Address</Form.Label>
-                                <Form.Control type="password" placeholder="hello@123" />
-                              </Form.Group>
-                              <Form.Group className="mb-3" controlId="formBasicPassword">
-                              <div className='d-flex justify-content-between'>
-                              <Form.Label>Phone Number</Form.Label>
-                              <span className='text-danger span-details'>The field is required</span>
-                              </div>
-                                <Form.Control type="password" placeholder="e.g. +1234" className='border-danger' />
-                              </Form.Group>
-                              <div className='d-flex justify-content-end mt-5'>
-                              <button className='btn-next-step '>Next Step</button>
-                              </div>
+                                <Form.Group className="mb-3" controlId="formBasicEmail">
+                                    <Form.Label>Name</Form.Label>
+                                    <Form.Control type="email" placeholder="Bikash Ghimire" />
+                                </Form.Group>
+                                <Form.Group className="mb-3" controlId="formBasicPassword">
+                                    <Form.Label>Email Address</Form.Label>
+                                    <Form.Control type="password" placeholder="hello@123" />
+                                </Form.Group>
+                                <Form.Group className="mb-3" controlId="formBasicPassword">
+                                    <div className='d-flex justify-content-between'>
+                                        <Form.Label>Phone Number</Form.Label>
+                                        <span className='text-danger span-details'>The field is required</span>
+                                    </div>
+                                    <Form.Control type="password" placeholder="e.g. +1234" className='border-danger' />
+                                </Form.Group>
+                                <div className='d-flex justify-content-end mt-5'>
+                                    <button className='btn-next-step '>Next Step</button>
+                                </div>
                             </Form>
                         </div>
                     </Row>

@@ -1,0 +1,73 @@
+    .monthly-box {
+        background-color: #EFF3FC;
+        width: 85% !important;
+        border-radius: 16px;
+        height: 180px;
+        padding: 20px;
+        margin-top: 45px;
+    }
+.arcade{
+  color:#012B5D;
+}
+.arcade-text{
+    color:rgb(124, 7, 182);
+    text-decoration: underline;
+}
+.with-border {
+    border-bottom: 1.8px solid lightgray; 
+  }
+.btn-confirm{
+    background-color:rgb(141, 87, 255);
+    color: white;
+    padding: 4px;
+    border-radius: 10px;
+    height: 48px;
+    width: 120px;
+    border: none;
+}
+.last-section {
+        margin-top: 85px;
+        padding-right: 90px;
+    }
+h1.right-bar-h1 {
+    color: #174A89;
+    font-weight: 550;
+    font-family: 'Ubuntu';
+}
+.sidebar-text{
+    color: #ACB0B3;
+    font-size: 16px;
+    font-family: 'Ubuntu';
+}
+.arcade{
+    color: #174A89;
+    font-family: 'Ubuntu';
+    font-weight: 500;
+}
+.amount{
+    color: #174A89;
+    font-family: 'Ubuntu';
+}
+.service-storage{
+    color: #ACB0B3;   
+}
+.final-amount{
+    position: relative;
+    right: 139px;
+    color: #174A89;
+    font-weight: 650;
+    color: rgb(124, 7, 182);
+}
+.circle-4{
+    height: 37px;
+    width: 37px;
+    border-radius: 50%;
+    font-size: 18px;
+    font-family: Ubuntu;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 6px;
+    align-items: center;
+    background-color:  #BFDFFD;
+}
